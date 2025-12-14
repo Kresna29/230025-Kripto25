@@ -5,8 +5,8 @@ using namespace std;
 // Deklarasi fungsi
 int mod26(int x);
 int modInverse(int a);
-void encrypt(string plaintext, int key[2][2]);
-void decrypt(string ciphertext, int key[2][2]);
+void enkripsi(string plaintext, int key[2][2]);
+void dekripsi(string ciphertext, int key[2][2]);
 
 // Main program
 int main() 
@@ -23,8 +23,8 @@ int main()
     cout << "=== Hill Cipher 2x2 ===" << endl;
     cout << "Plaintext  : " << plaintext << endl;
 
-    encrypt(plaintext, key);
-    decrypt(ciphertext, key);
+    enkripsi(plaintext, key);
+    dekripsi(ciphertext, key);
 
     return 0;
 }
@@ -49,7 +49,7 @@ int modInverse(int a)
 }
 
 // Fungsi enkripsi Hill Cipher
-void encrypt(string plaintext, int key[2][2]) 
+void enkripsi(string plaintext, int key[2][2]) 
 {
     cout << "Ciphertext : ";
     for (int i = 0; i < plaintext.length(); i += 2) 
@@ -66,7 +66,7 @@ void encrypt(string plaintext, int key[2][2])
 }
 
 // Fungsi dekripsi Hill Cipher
-void decrypt(string ciphertext, int key[2][2]) 
+void dekripsi(string ciphertext, int key[2][2]) 
 {
     int det = mod26(key[0][0] * key[1][1] - key[0][1] * key[1][0]);
     int detInv = modInverse(det);
