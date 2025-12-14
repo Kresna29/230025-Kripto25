@@ -39,5 +39,5 @@ Program bekerja dalam **mode file biner**, sehingga dapat digunakan pada file ga
    ```
 
 ## Output
-![Hasil Running Program](Hasil_Running1.png)
-![Hasil Running Program](Hasil_Running2.png)
+![Hasil Running Program](Hasil_Running(1).png)
+![Hasil Running Program](Hasil_Running(2).png)
