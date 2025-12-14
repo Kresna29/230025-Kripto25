@@ -28,4 +28,16 @@ Program bekerja dalam **mode file biner**, sehingga dapat digunakan pada file ga
    - Bit dikonversi kembali menjadi teks asli.
 4. Pesan hasil decode ditampilkan di console.
 
----
+## Cara Menjalankan
+1. Compile program:
+   ```bash
+   g++ LSB.cpp -o LSB
+   ```
+2. Jalankan program:
+   ```bash
+   ./LSB
+   ```
+
+## Output
+![Hasil Running Program](Hasil_Running1.png)
+![Hasil Running Program](Hasil_Running2.png)
