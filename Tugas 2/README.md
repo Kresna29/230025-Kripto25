@@ -10,11 +10,11 @@ Program ini hanya mendukung **huruf kapital A–Z** dan plaintext dengan panjang
 
 ## Alur Program
 1. Program mendefinisikan matriks kunci `2x2` dan teks awal (`plaintext`) serta `ciphertext` contoh.  
-2. Fungsi **encrypt**:
+2. Fungsi **enkripsi**:
    - Mengubah setiap dua huruf plaintext menjadi vektor.
    - Mengalikan dengan matriks kunci dan mengambil hasil modulo 26.
    - Menggabungkan hasil menjadi ciphertext.
-3. Fungsi **decrypt**:
+3. Fungsi **dekripsi**:
    - Menghitung determinan matriks kunci dan invers modulo 26.
    - Membuat matriks invers kunci.
    - Mengalikan ciphertext dengan matriks invers untuk mendapatkan plaintext asli.
