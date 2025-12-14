@@ -1,0 +1,3 @@
+Sample file 2 berisi Angka 1-9 dan Huruf A-Z.
+123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
